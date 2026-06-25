@@ -1,14 +1,19 @@
-Welcome to Mudra Magic! 
+# Mudra Magic
 This application recognizes and classifies 10 different hand gestures used in classical dance.
 These 10 are pataka, ardhapataka, alapadma, chandrakala, hamsasyo, kataka, mukula, mushti, shikara, and suchi. 
 
-To run this project, use the following command:
-$ python webcam_landmarks.py
+## Run this project
+Use the following command:
+```bash
+python webcam_landmarks.py
+```
 
 If the csv and keras files are corrupted, run the files in this order:
-$ python extract_landmarks.py
-$ python train_landmarks.py
-$ python webcam_landmarks.py
+```bash
+ python extract_landmarks.py
+ python train_landmarks.py
+ python webcam_landmarks.py
+```
 
 To balance the dataset, this file was run:
 $ balance_data.py
