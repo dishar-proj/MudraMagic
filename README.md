@@ -8,17 +8,19 @@ Use the following command:
 python webcam_landmarks.py
 ```
 
-If the csv and keras files are corrupted, run the files in this order:
+If the csv and keras files are corrupted:
 ```bash
  python extract_landmarks.py
  python train_landmarks.py
  python webcam_landmarks.py
 ```
 
-To balance the dataset, this file was run:
+To balance the dataset:
+```bash
 $ balance_data.py
+```
 
-Here are some resources I used during the project:
+## Sources
 - Dataset, says balanced but is not: https://www.kaggle.com/datasets/krithi9977/bharatanatyam-mudra-dataset-balanced/versions/1?resource=download 
 - https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker?authuser=1 
 - https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense 
